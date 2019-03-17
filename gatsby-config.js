@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `fit-diet-app`,
+        name: `Fit Diet App`,
         short_name: `fit-diet-app`,
         start_url: `/`,
         background_color: `#6FCF97`,
