@@ -21,9 +21,9 @@ module.exports = {
         name: `fit-diet-app`,
         short_name: `fit-diet-app`,
         start_url: `/`,
-        background_color: `linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%)`,
-        theme_color: `linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%)`,
-        display: `minimal-ui`,
+        background_color: `#6FCF97`,
+        theme_color: `#66D2EA`,
+        display: `standalone`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
