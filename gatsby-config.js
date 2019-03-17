@@ -15,11 +15,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Fit Diet App`,
-        short_name: `fit-diet-app`,
+        short_name: `Fit Diet App`,
         start_url: `/`,
         background_color: `#6FCF97`,
         theme_color: `#66D2EA`,
