@@ -1,4 +1,5 @@
 import React from 'react'
+import Input from '../components/input'
 
 
 class Lista extends React.Component {
@@ -24,6 +25,9 @@ class Lista extends React.Component {
             <option value="hombre">Hombre</option>
           </select>
         </label>
+        <Input tipo='Peso' unidad='kgs'/>
+        <Input tipo='Estatura' unidad='cms'/>
+        <Input tipo='Edad' unidad='años'/>
         </div>
     );
   }
